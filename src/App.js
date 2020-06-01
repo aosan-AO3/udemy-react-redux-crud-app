@@ -1,7 +1,12 @@
 import React from "react";
 
 function App() {
-  return  <div ><h1>Hello World!!!</h1></div>;
+  return (
+    <>
+      <label htmlFor="bar">bar</label>
+       <input type="text" onChange={() => {console.log("Hi!")}} />;
+    </>
+  )
 }
 
 export default App;
